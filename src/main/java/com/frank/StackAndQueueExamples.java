@@ -126,11 +126,11 @@ public class StackAndQueueExamples {
 			}
 		System.out.println("--------------------------------------------");		
 			
-		System.out.println("\nNumber items in myQueue - .size(): " + myQueue.size());
-		System.out.println(" Getting Top of myQueue - .poll(): " + myQueue.poll());
-		System.out.println("Number items in myQueue - .size(): " + myQueue.size());
-		System.out.println("   Top Element on Queue - .peek(): " + myQueue.peek());
-		System.out.println("Number items in myQueue - .size(): " + myQueue.size());
+		System.out.println("\nNumber items in myQueue - .size(): " + myQueue.size()); //6
+		System.out.println(" Getting Top of myQueue - .poll(): " + myQueue.poll()); //remove first or frank
+		System.out.println("Number items in myQueue - .size(): " + myQueue.size()); //5
+		System.out.println("   Top Element on Queue - .peek(): " + myQueue.peek()); //looks at frist item daniel
+		System.out.println("Number items in myQueue - .size(): " + myQueue.size()); //5
 
 		System.out.println("    Number items in myQueue - .size(): " + myQueue.size());
 			
